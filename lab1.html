@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"> 
+        <link rel="stylesheet" href="style.css">
+        <title>Lab 1</title>
+    </head>
+    <body>
+        <table border="1" cellpadding="0" cellspacing="1" width="100%">
+            <tr>
+            <th class="header" colspan=2> <h1>Web Lab №1</h1> Kseniya Vladimirovna Arbatova, P3233, var 1414  <br> </th> 
+            </tr>
+            <tr>
+            <th width="50%">Point placement</th>
+            <th width="50%">Graph</th>
+            </tr>
+            <tr class="content">
+                <td>
+                    <form id="point"  method="post" action="processor.php">
+                        <fieldset>
+                          <legend>Please select your preferred X-value:</legend>
+                          <div>
+                            <input class="radio" type="radio" name="Xvalue" value=-3 checked />  <label for="Choice1">-3</label>
+                            <input class="radio" type="radio" name="Xvalue" value=-3 checked />  <label for="Choice2">-2</label>
+                            <input class="radio" type="radio" name="Xvalue" value=-3 checked />  <label for="Choice3">-1</label>
+                            <input class="radio" type="radio" name="Xvalue" value=-3 checked />  <label for="Choice4">0</label>
+                            <input class="radio" type="radio" name="Xvalue" value=-3 checked />  <label for="Choice5">1</label>
+                            <input class="radio" type="radio" name="Xvalue" value=-3 checked />  <label for="Choice6">2</label>
+                            <input class="radio" type="radio" name="Xvalue" value=-3 checked />  <label for="Choice7">3</label>
+                            <input class="radio" type="radio" name="Xvalue" value=-3 checked />  <label for="Choice8">4</label>
+                            <input class="radio" type="radio" name="Xvalue" value=-3 checked />  <label for="Choice9">5</label>
+                          </div>
+                          
+                          <legend>Please enter your preferred Y-value:</legend> <br>
+                          <div id="y-select-input" class="select-input-container">
+                            <input type="text" name="y-select" id="y-select" class="input-select" placeholder="Should be between -5 and 3" required />
+                            <span class="error" aria-live="polite"></span>
+                          </div>
+                        
+                            <p>Y-value must be between -5 and 3</p>
+
+                          <legend>Please select your preferred R-value:</legend>
+                          <div>
+                            <input class="radio" type="radio" name="Rvalue" value=-3 checked />  <label for="Choice1">1</label>
+                            <input class="radio" type="radio" name="Rvalue" value=-3 checked />  <label for="Choice2">1.5</label>
+                            <input class="radio" type="radio" name="Rvalue" value=-3 checked />  <label for="Choice3">2</label>
+                            <input class="radio" type="radio" name="Rvalue" value=-3 checked />  <label for="Choice4">2.5</label>
+                            <input class="radio" type="radio" name="Rvalue" value=-3 checked />  <label for="Choice5">3</label>
+                          </div>
+                          
+                          <div>
+                            <button type="submit">Submit</button>
+                          </div>
+
+
+                        </fieldset>
+                        
+                      </form>
+                </td>
+                <td align="center">  
+                    <img src="graph.png" width="300">
+                </td>
+            </tr>
+            <tr>
+            <td colspan=2> Attempts</td>
+            </tr>
+        </table>      
+        <div class = "footer">
+            <a href="mailto:kseniya.arbatova@gmail.com">kseniya.arbatova@gmail.com</a></p>
+        </div>
+    </body>
+</html>
